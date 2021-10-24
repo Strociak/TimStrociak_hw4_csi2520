@@ -48,7 +48,7 @@
 #intro_res {
     text-align: center;
 }
-#future_plans {
+#objective {
     text-align: center;
 }
 
@@ -66,4 +66,12 @@ table, th, td {
 
  #Ex_act {
     text-align: center;
+}
+
+#wbit{
+    width: 200px;
+}
+
+#timpic{
+    width:200px;
 }
