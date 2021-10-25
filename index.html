@@ -1,11 +1,12 @@
 
 <html>
 <head>
+<script src="https://kit.fontawesome.com/d68a9f7df7.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="Styles/stylesheet.css">
 <nav>  <ul>
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="HTML/resume.html">Resume</a></li>
-    <li><a href="HTML/fun_facts.html">Fun Facts</a></li>
+    <li><a class="active" href="index.html">Home <i class="fas fa-home"></i></a></li>
+    <li><a href="HTML/resume.html">Resume  <i class="far fa-file"></i></a></li>
+    <li><a href="HTML/fun_facts.html">Fun Facts <i class="fas fa-user-check"></i></a></li>
     
     </ul>
 </nav>
@@ -13,14 +14,17 @@
 <link rel="shortcut icon" type="image/png" href="Images/favhome.jpg">
 <title>Timothy Strociak</title>
 </head>
-<body>
+<body background="Images/background2.jpg">
+
+<!---Intro section-->   
 <section id="intro_1">
-<h1>Timothy Stroicak's Website</h1>
-<img src="Images/IMG_tim.jpg" alt="image of Timothy" style="width:200px" class="center">
-<p>"If you look at what you have in life, you'll always have more.
+<h1 id="mainHeader">Timothy Stroicak</h1>
+<img id=timImage src="Images/IMG_tim.jpg" alt="image of Timothy" style="width:200px" class="center">
+<p id="quote1">"If you look at what you have in life, you'll always have more.
      If you look at what you don't have in life, you'll<br>never have enough" -Oprah Winfrey</P>
 </section>
 <br><br>
+<!---First Paragraph section--> 
 <section id="paragraph_1">
     <p>Hello viewers! I'm Timothy Strociak. I'm a student here at Oakland University!
         <br>I'm currently working towards my bachelors degree in Information Technology. <br>
@@ -31,11 +35,19 @@
     </p>
     <hr>
     <progress value = "100" max = "120"></progress>
-    <p>90/120 Credits to Graduate</p>
+    <p>90/120 Credits <i class="fas fa-coins"></i> to Graduate</p>
     
 </section>
 
-
+<!---Footer section--> 
 </body>
-<footer id ="footer">&copy;Copyright 2020-21 <mail>Strociak@oakland.edu</mail></footer>
+<footer>
+        <ul class="footer2">
+            <li ><a class="active" href="index.html">Home</a></li>
+            <li ><a href="https://www.instagram.com/timstrociak/">Instagram  <i class="fab fa-instagram"></i></a></li>
+            <li ><a href="https://www.linkedin.com/in/strociak/">LinkedIn  <i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p class="copyright">Strociak © 2018</p>
+ </footer>
+    
 </html>

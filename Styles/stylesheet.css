@@ -4,11 +4,15 @@
     margin-right: auto;
     width: 50%;
   }
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+.footer {
+    position: fixed;
+    left:0px;
+   bottom:0px;
+   height: 10px;
+   width:100%;
+    padding: 10px;
+    background-color: #ffffff;
+    
     
   }
 
@@ -43,17 +47,29 @@
 
 #intro_1 {
     text-align: center;
+    padding: 20px;
 }
 
 #intro_res {
     text-align: center;
+    background-color: #ffffff;
+    outline: solid;
+    font-size: 20px;
 }
 #objective {
     text-align: center;
+    background-color: #ffffff;
+    outline: solid;
 }
 
 #prof_expir {
     text-align: center;
+    background-color: #ffffff;
+    outline: solid;
+}
+#prof_expirHead{
+    font-size: 30px;
+    border: solid;
 }
 #Edu_exp {
     text-align: center;
@@ -74,4 +90,132 @@ table, th, td {
 
 #timpic{
     width:200px;
+}
+
+#timImage {
+    border-radius: 8px;
+    outline: solid;
+    
+  }
+
+  #paragraph_1{
+    font-weight: 700;
+    background-color: #ffffff;
+    outline: solid;
+    padding: 3px; 
+}
+
+#quote1{
+    font-weight: 700;
+    background-color: #ffffff;
+    padding: 3px;
+    outline: solid;
+    font-style: italic;
+    
+}
+
+#mainheader{
+    font-size: 90px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#table1{
+    background-color: wheat;
+}
+
+#footer2{
+    text-align: center;
+}
+
+#intro_ff{
+    background-color: white;
+    border: solid;
+    text-align: center;
+}
+
+#fav_book{
+    background-color: white;
+    border: solid;
+    text-align: center;
+}
+
+
+#wbit{
+    border: solid 2px;
+}
+
+#fav_audio{
+    background-color: white;
+    border: solid;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#rickImg{
+    border: solid 2px;
+}
+
+#fav_movie{
+    background-color: white;
+    border: solid;
+    text-align: center;
+}
+#funfactsHeader{
+    font-size:30px;
+    
+}
+#ffHead{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  background: rgba(0, 0, 0, 0);
+}
+
+#interFrame{
+    border: solid 4px;
+}
+
+#Ex_act{
+    background-color: white;
+    border: solid;
+    text-align: center;
+}
+
+#Edu_exp{
+    background-color: white;
+    border: solid;
+    text-align: center;
+    padding: 10px;
+}
+
+#emailLink{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#EdgewoodTable{
+    padding: 10px;
+    background-color: wheat;
+}
+
+#DickeysTable{
+    padding: 10px;
+    background-color: wheat;
+}
+
+#AnchorTable{
+    padding: 10px;
+    background-color: wheat;
+    
+}
+
+#Ex_act_table{
+    padding: 10px;
 }
